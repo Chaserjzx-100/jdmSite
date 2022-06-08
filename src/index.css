@@ -1,0 +1,373 @@
+body {
+
+  /* background-color: rgb(235, 238, 238); */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/************* THEME *******************/
+#light {
+  background-color: #ffffffe8;
+}
+
+#light .App {
+  background-color: #fff0ccfd;
+}
+
+
+#dark {
+  background-color: #660708;
+}
+
+#dark .App {
+  background-color: #660708;
+}
+
+#dark .switch {
+  color: aliceblue;
+}
+
+#dark h1 {
+  color: aliceblue;
+}
+
+#dark h2 {
+  color: aliceblue;
+}
+
+#dark li {
+  color: aliceblue;
+}
+
+/************NAV BAR *******************/
+#mainNavbar {
+  color: white;
+}
+
+/******************HOME PAGE******************/
+
+.heading {
+  border-bottom: #161a1d;
+  border-style: solid;
+}
+
+.homePics {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+nav {
+  display: flex;
+  text-align: center;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.labels .T {
+  text-align: center;
+  margin-left: 21%;
+  margin-right: 22%;
+}
+
+/*Class*/
+.modded {
+  color: black;
+}
+
+/* .post:nth-of-type(3n) chooses every other class*/
+/*Play with rems and ems. Rems relative to root, Ems based of parent font size*/
+/*Class*/
+.catagory {
+  display: block;
+}
+
+.headings {
+  color: #9a031e;
+}
+
+h1 {
+  color: #660708;
+  font-size: 80px;
+  text-align: center;
+  width: 90;
+  margin-bottom: 0px;
+}
+
+/* @media(max-width: 500px) {
+  h1 {
+    color: black;
+  }
+} */
+
+h2,
+h3 {
+  color: darkred;
+}
+
+h4 {
+  color: #161a1d;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+div {
+  color: #161a1d;
+}
+
+
+
+article {
+  color: #161a1d;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: rgb(240, 240, 240);
+}
+
+p {
+  text-align: center;
+}
+
+.chaser {
+  position: relative;
+  border-style: double;
+  border-color: #161a1d;
+  width: 75%;
+  height: 85%;
+  transition: 1.5s;
+}
+
+.chaser:hover {
+  border-radius: 15px;
+  width: 70%;
+  height: 83%;
+  transform: scale(1.0);
+}
+
+.s2k {
+  position: relative;
+  border-style: double;
+  border-color: #161a1d;
+  width: 80%;
+  height: 85%;
+  transition: 1.5s;
+}
+
+.s2k:hover {
+  border-radius: 15px;
+  width: 83%;
+  height: 84%;
+  transform: scale(1.0);
+}
+
+.s15:hover {
+  border-radius: 35px;
+  width: 74%;
+  height: 88%;
+  transform: scale(1.0);
+  padding-left: 2em;
+}
+
+.s15 {
+  /* padding-left: 3em; */
+  position: relative;
+  width: 80%;
+  height: 85%;
+  transition: 1.5s;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.A90 {
+  width: 70%;
+  height: 70%;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  text-align: center;
+  justify-content: center;
+}
+
+.supra {
+  height: 60%;
+  width: 60%;
+}
+
+.supra:hover {
+  border-radius: 20%;
+  transition: border-radius 1.5s;
+
+}
+
+.supraDiv {
+  text-align: center;
+}
+
+footer {
+  color: #161a1d;
+}
+
+
+
+
+/****************CONTACT PAGE*****************/
+
+/* body {
+  background-color: rgb(53, 54, 54);
+} */
+
+.intro>h1 {
+  color: #161a1d;
+}
+
+.intro>h2 {
+  color: #161a1d;
+}
+
+.innerbox {
+  max-width: 650px;
+  margin: auto;
+  background-color: rgba(39, 31, 87, 0.925);
+  border-radius: 5em;
+}
+
+.silvia {
+  width: 400px;
+  height: inherit;
+  margin-top: 40px;
+  border-radius: 4em;
+}
+
+.emailbtn {
+  margin: 1em;
+}
+
+
+/*Separate container class for .About*/
+.About {
+  max-width: 500px;
+  min-width: 250px;
+  margin-top: 2em;
+}
+
+/**************ABOUT PAGE **************/
+
+.about {
+  margin: 1em;
+}
+
+.alert {
+  margin: 1em;
+}
+
+.lead {
+  margin: 1em;
+}
+
+.itachi {
+  color: #9a031e;
+}
+
+
+
+/****************Add Vehicles Page*****************/
+
+.addVehicle {
+  color: #161a1d;
+}
+
+.list {
+  padding: 50px 30px;
+}
+
+.hondaList {
+  list-style-type: "";
+  font-size: 25px;
+  padding: 10px 0px;
+}
+
+.supra {
+  margin-bottom: 20px;
+  border-style: solid;
+}
+
+
+.update_ {
+  margin-right: 1em;
+}
+
+.title {
+  color: rgb(20, 19, 19);
+}
+
+.addbtn {
+  margin-right: 1em;
+}
+
+.logo {
+  width: 30px;
+  height: inherit;
+  /*top right bottom left*/
+  margin: 40px 5px 10px 10px;
+}
+
+.rights {
+  background-color: rgb(141, 139, 139);
+  /* border-radius: 1em; */
+}
+
+
+
+
+
+
+/***************WHEEL PAGE ***************/
+.naruto {
+  color: rgba(210, 136, 0, 0.825);
+}
+
+.TE {
+  margin: 1em;
+  border-top: solid;
+  border-color: #858585;
+}
+
+.rpf1 {
+  margin: 1em;
+  border-top: solid;
+  border-color: #858585;
+}
+
+.meister {
+  margin: 1em;
+  border-top: solid;
+  border-color: #858585;
+}
+
+.meister-text {
+  color: rgb(227, 230, 234);
+}
